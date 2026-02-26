@@ -22,13 +22,13 @@ class AdvancedSettingsFormRequest extends AdminFormRequest
                 'nullable',
                 'required_if:pterodactyl:client_features:allocations:enabled,true',
                 'integer',
-                'between:1024,65535',
+                'between:0,65535',
             ],
             'pterodactyl:client_features:allocations:range_end' => [
                 'nullable',
                 'required_if:pterodactyl:client_features:allocations:enabled,true',
                 'integer',
-                'between:1024,65535',
+                'between:0,65535',
                 'gt:pterodactyl:client_features:allocations:range_start',
             ],
         ];
