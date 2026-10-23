@@ -1,4 +1,11 @@
-[![Logo Image](https://cdn.pterodactyl.io/logos/new/pterodactyl_logo.png)](https://pterodactyl.io)
+<p align="center">
+  <a href="https://pterodactyl.io">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/logo-dark.svg">
+      <img alt="Pterodactyl" src=".github/assets/logo-light.svg" height="72">
+    </picture>
+  </a>
+</p>
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/pterodactyl/panel/ci.yaml?label=Tests&style=for-the-badge&branch=1.0-develop)
 ![Discord](https://img.shields.io/discord/122900397965705216?label=Discord&logo=Discord&logoColor=white&style=for-the-badge)
@@ -12,6 +19,18 @@ in mind, Pterodactyl runs all game servers in isolated Docker containers while e
 UI to end users.
 
 Stop settling for less. Make game servers a first class citizen on your platform.
+
+## Pterodactyl v2 Beta is Out!
+
+Pterodactyl v2.0.0-beta.1 is now available! The next major version introduces a modernized tech stack, a redesigned admin area, and an extension SDK built into the panel. It remains 100% free and open source under the MIT license.
+
+[![Watch: Introducing Pterodactyl v2](.github/assets/v2-video.jpg)](https://www.youtube.com/watch?v=1ER4kv0jVEU)
+
+- [Get started with v2](https://docs.pterodactyl.io/v2/panel/getting-started)
+- [Upgrade from v1](https://docs.pterodactyl.io/v2/upgrading/upgrading-from-v1)
+- [Release notes](https://github.com/pterodactyl/panel/releases/tag/v2.0.0-beta.1)
+
+Development happens on the [`2.0-develop`](https://github.com/pterodactyl/panel/tree/2.0-develop) branch. The v2 branch is currently in beta, while `1.0-develop` remains the current stable release line.
 
 ![Image](https://cdn.pterodactyl.io/site-assets/pterodactyl_v1_demo.gif)
 
